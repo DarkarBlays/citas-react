@@ -15,6 +15,11 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      
     ],
+    'no-unused-vars': 'warn',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'no-undef': 'off'
   },
 }
